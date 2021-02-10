@@ -114,6 +114,7 @@ movieByURL:
   - action: scrapeXPath
     url:
       - evilangel.com/en/movie/
+      - genderx.com/en/dvd/
     scraper: movieScraper
 
 xPathScrapers:
@@ -190,4 +191,4 @@ xPathScrapers:
         Name: //a[contains(@class, 'GA_Id_headerLogo')]/span[@class='linkMainCaption']/text()
       FrontImage: //a[@class='frontCoverImg']/@href
       BackImage: //a[@class='backCoverImg']/@href
-# Last Updated November 8, 2020
+# Last Updated February 10, 2021
